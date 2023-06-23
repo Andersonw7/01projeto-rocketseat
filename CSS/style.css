@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray: #7d7987;
+  --orange: #ff9900;
+  --line: #ECEFF2;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1280px;
+  height: 100vh;
+  background-color: var(--white);
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 900px;
+}
+
+.hero-img {
+  display: block;
+  margin: 0 auto 4.5rem;
+}
+
+h1 {
+  color: var(--black);
+  font-size: 3rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 56px;
+  margin: 2rem auto;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  color: var(--gray);
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  font-family: 'Open Sans';
+  line-height: 1.75rem;
+}
+
+span {
+  color: var(--orange);
+}
+
+footer {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.line {
+  width: 35.50006rem;
+  height: 0.0625rem;
+  background: var(--line);
+  margin: 0 auto 0.5rem;
+}
+
+.links a {
+  color: var(--orange);
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  text-decoration: underline;
+}
+
+.links a:first-child {
+  margin-right: 2rem;
+}
+
+.balls-decoration {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
